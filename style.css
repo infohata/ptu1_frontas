@@ -1,9 +1,10 @@
-body {background-color: #777; margin: 0; padding: 0;}
-header {background-color: #222;}
+body {background-color: #111; margin: 0; padding: 0; background-image: url('img/dark-sand.jpg'); background-size: cover; background-repeat: no-repeat;}
+header {background-color: #222; border-bottom: 2px solid #ccc;}
 header img {max-height: 20px;}
-main {background-color: #555; color: #eee; padding: 0.5rem 2rem;}
+main {background-color: rgba(128, 128, 128, 0.3); padding: 0.5rem 2rem 2rem 3rem; color: #eee;}
 nav {padding: 0.5rem 0;}
 a {color: #f00;}
 a:hover {color: #f99; text-decoration: none; border-bottom: 3px solid #f00;}
 header ul li {display:inline-block; margin:0 0.5rem;}
-aside {background-color: #359; width: 30%; float: right;}
+aside {background-color: #359; width: 30%; float: right; background-image: url("img/blue-sky.jpg"); background-size: cover; border: 1px solid #ccc; border-radius: 10px;}
+.melynas {color: #aaf; }
